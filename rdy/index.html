@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fullpage.min.css" />
+
+    <!-- To keep the font the same as the one I used on my application -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <section class="section s1">
+            <h1>The Ultimate Scheduling Application for Easy Event Planning</h1>
+            <img src="./img/titlescreen2.png" alt="TitleScreen" class="titlescreen">
+            <div class="descriptionTitle">
+                <p> A scheduling app that helps users coordinate their calendars and organize events with others. It
+                    allows for easy syncing of calendars and communication with participants to ensure efficient
+                    planning.</p>
+            </div>
+        </section>
+
+        <section class="section s2">
+            <h1>Introducing RDY</h1>
+            <h2>Rendevouz & Disconnect Yourself</h2>
+            <div class="description">
+                <p> Just like a successful rendezvous, <strong>RDY</strong> brings people together by making event
+                    planning
+                    effortless. So why waste time stressing over scheduling when
+                    you can disconnect and let <strong>RDY</strong> do the work for you.</p>
+            </div>
+            <img src="./img/titlescreen.png" alt="TitleScreen" class="rdyapp">
+            <img src="./img/home.png" alt="HomeScreen" class="rdyapp">
+            <img src="./img/calendar.png" alt="Calendar" class="rdyapp">
+            <img src="./img/chat.png" alt="Chat" class="rdyapp">
+        </section>
+
+        <section class="section s3">
+            <h1>Sync your calendar and never miss a beat</h1>
+            <div class="description">
+                <p> Syncing your calendar is an important feature that allows you to access and update your schedule
+                    from multiple devices. With syncing, you can ensure that your calendar is up-to-date and accurate,
+                    even when you make changes on a different device. This feature also allows you to easily coordinate
+                    events with others, view shared calendars, and avoid scheduling conflicts. By syncing your calendar,
+                    you can save time and stay organized, ensuring that you never miss an important event or
+                    appointment.</p>
+            </div>
+            <img src="./img/calendar3.png" alt="Calendar" class="calendar">
+        </section>
+
+        <section class="section s4">
+            <h1>Stay connected and stay coordinated</h1>
+            <div class="description">
+                <p> With the chat feature, you can easily discuss event details, share updates, and coordinate with
+                    other participants. The chat feature in <strong>RDY</strong> can also allow for
+                    file sharing, such as sharing photos, documents, or links, to make communication even more
+                    efficient. With the chat feature, you can stay connected and ensure that everyone is on the same
+                    page.</p>
+            </div>
+            <img src="./img/chat.png" alt="Chat" class="chat">
+            <img src="./img/chat3.png" alt="Chat" class="chat2">
+        </section>
+    </div>
+
+    <!-- For the animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- So I can chain the animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- The javascript that I am using is the fullpage.js -->
+    <script src="./fullpage.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

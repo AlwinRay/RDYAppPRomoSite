@@ -1,0 +1,113 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.titlescreen {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    /*  */
+    transform: translate(-50%, -70%); 
+}
+
+.rdyapp {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    /*  */
+    transform: translate(-50%, -70%); 
+}
+
+.calendar {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    /*  */
+    transform: translate(-50%, -70%); 
+}
+
+.chat {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    /*  */
+    transform: translate(-50%, -70%); 
+}
+
+.chat2 {
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    /*  */
+    transform: translate(-50%, -70%); 
+}
+/* .s1 {
+    background-image: url("./img/titlescreen2.png");
+    background-size: cover;
+} */
+
+.section h1 {
+    font-size: 64px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(-50, -20%);
+    background: linear-gradient(to left, #3D3E6E, #374455);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 20ch;
+}
+
+.section h2{
+    /* margin: 20%; */
+    position: absolute;
+    top: 40%;
+    left: 6px;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #3D3E6E;
+    font-weight: 700;
+    max-width: 60ch;
+    
+}
+.descriptionTitle{
+    /* margin: 10%; */
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #3D3E6E;
+    font-weight: 500;
+    max-width: 60ch;
+    
+}
+
+.description{
+    /* margin: 10%; */
+    position: absolute;
+    top: 45%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #3D3E6E;
+    font-weight: 500;
+    max-width: 60ch;
+    
+}
+
+.description p {
+    top: 55%;
+    margin: 50px 0px;
+}
